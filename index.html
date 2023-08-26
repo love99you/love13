@@ -1,0 +1,183 @@
+<html>
+
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1, 
+
+ maximum-scale=1, user-scalable=no"/>
+
+    <title>跳动的爱心</title>
+	<!-- <h1>微信公众号：木易巷</h1> -->
+
+    <head>
+
+       <style>
+
+    *{
+
+       padding: 0;
+
+       margin: 0;
+
+ }
+
+ body{
+
+  background-color: pink;
+
+ }
+
+ @keyframes move{
+
+  0%{transform: rotateZ(-135deg) scale(1);}
+
+  50%{transform: rotateZ(-135deg) scale(0.8);}
+
+  100%{transform: rotateZ(-135deg) scale(1.1);}
+
+ }
+
+ @keyframes love{
+
+  0%{transform: scale(1);}
+
+  50%{transform: scale(0.8);}
+
+  100%{transform: scale(1.1);}
+
+ }
+
+ #xin{
+
+  width: 200px;
+
+  height: 200px;
+
+  margin: 200px auto;
+
+  background-color: red;
+
+  transform: rotateZ(-135deg);
+
+  animation: move 1s infinite alternate;
+
+  box-shadow: 0 0 100px 0 #FF0000;
+
+  z-index: -60;
+
+ }
+
+ #xin:before{
+
+  content: "";
+
+  width: 200px;
+
+  height: 200px;
+
+  position: absolute;
+
+  border-radius: 50%;
+
+  background-color: red;
+
+  left: 100px;
+
+  box-shadow: 0 0 100px 0 #FF0000;
+
+ }
+
+ #xin:after{
+
+  content: "";
+
+  width: 200px;
+
+  height: 200px;
+
+  position: absolute;
+
+  border-radius: 50%;
+
+  background-color: red;
+
+  top: 100px;
+
+  box-shadow: 0 0 100px 0 #FF0000;
+
+ }
+
+ #zi{
+
+  text-align: center;
+
+  font-family: 方正雅体;
+
+  width: 200px;
+
+  height: 50px;
+
+  color: yellow;
+
+  margin:-370px auto;
+
+  animation: love 1s infinite alternate;
+
+  z-index: 60;
+
+ }
+
+ #xia{
+
+  width: 300px;
+
+  height: 300px;
+
+  font-family: 仿宋;
+
+  color: yellow;
+
+  font-size: 20px;
+
+  margin:600px auto;
+
+ }
+
+  </style>
+
+ </head>
+
+ <body>
+     <a href="https://mp.weixin.qq.com/s/oxLqXBcLCT8ij67DjkW2kw" class="hide_buttom"
+  style="position: fixed;top: 10%;right: 10px;width: 35px;height: 35px;z-index: 999;background: #696969;border-radius: 50%;padding: 1.0px;text-align: center;color: #ddd;text-decoration: none;   clear: both; line-height: 35px; 	margin:auto;   font-size: 13px;">制作</a>
+  <a href="https://mp.weixin.qq.com/s/KA3nFLUB5W8f1BIyd_g0cg" class="hide_buttom"
+  style="position: fixed;top: 4%;right: 10px;width: 35px;height: 35px;z-index: 998;background: #696969;border-radius: 50%;padding: 1.0px;text-align: center;color: #ddd;text-decoration: none;   clear: both; line-height: 35px; 	margin:auto;   font-size: 13px;">更多</a>
+          <a href="https://pan.quark.cn/s/3344d23e48a8" class="hide_buttom"
+  style="position: fixed;top: 16%;right: 10px;width: 35px;height: 35px;z-index: 997;background: #696969;border-radius: 50%;padding: 1.0px;text-align: center;color: #ddd;text-decoration: none;   clear: both; line-height: 35px; 	margin:auto;   font-size: 13px;">源码</a>
+  <a href="https://shop1619956412.v.weidian.com/?userid=1619956412&spider_token=2720" class="hide_buttom"
+  style="position: fixed;top: 22%;right: 10px;width: 35px;height: 35px;z-index: 996;background: #696969;border-radius: 50%;padding: 1.0px;text-align: center;color: #ddd;text-decoration: none;   clear: both; line-height: 35px; 	margin:auto;   font-size: 13px;">红包</a>
+
+
+   <div id="xin"></div>
+
+   <pre id="zi">I LOVE YOU</pre>
+
+   <pre id="xia">
+   
+   </pre>
+
+ </body>
+
+ <script>
+
+  au=document.getElementById("au")
+
+        function lp(){
+
+            au.play()
+
+        }
+
+        setTimeout("lp()",1)
+
+    </script>
+
+   </html>
